@@ -1,0 +1,24 @@
+position absolute and relative
+
+
+in index.css:
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+in header.css:
+animation: fadeIn 3s;
+// this will enable the text content to transition slowly when page gets reload.
+
+for scroll bar:
+overflow-x: scroll;
+ 
+to hide scroll bar:
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+} 
